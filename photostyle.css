@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav a:hover {
+  background-color: yellowgreen;
+}
+
+.photos {
+  position: ;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.photos img {
+  width: 100%;
+  height: 100%;
+}
